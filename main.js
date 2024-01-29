@@ -1,0 +1,9 @@
+
+function encriptarMensaje () {
+    
+}
+
+function desencriptarMensaje () {
+    
+}
+
