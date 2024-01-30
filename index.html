@@ -10,28 +10,35 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Challenge Alura</title>
+        <title>Encriptador</title>
     </head>
 
     <body>
         <div class="container">
-            <h1 class="titulo-principal">¡El Challenge del Encriptador!</h1>
+            <h1 class="titulo-principal mb-5">¡El Desafío del Encriptador!</h1>
 
             <div class="row">
                 <div class="col-md-12">
+
                     <div class="mb-4">
-                        <label for="texto" class="h4 mb-4">Encriptar Mensaje</label>
-                        <textarea class="form-control" id="texto" rows="5"></textarea>
+                        <label for="mensaje" class="h4 mb-4">Ingrese su Mensaje:</label>
+                        <input class="form-control" id="mensaje" rows="6">
                     </div>
 
-                    <div class="d-grid gap-2 col-5 mx-auto mb-5">
-                        <button type="button" class="btn btn-primary">Encriptar</button>
-                        <button type="button" class="btn btn-warning">Desencriptar</button>
-                        <button type="button" class="btn btn-secondary">Copiar</button>
+                    <div class="mb-4">
+                        <label for="text_area" class="h4 mb-4">Texto Encriptado/Desencriptado:</label>
+                        <textarea class="form-control" id="text_area" rows="6" disabled></textarea>
                     </div>
                 </div>
             </div>
 
+            <div class="d-grid gap-3 col-4 mx-auto">
+                <button class="btn btn-primary" type="button" onclick="encriptarMensaje()">Encriptar</button>
+                <button class="btn btn-warning" type="button">Desencriptar</button>
+                <button class="btn btn-danger" type="button">Copiar</button>
+            </div>
+            
+            <br>
             <p class="h6 titulo-secundario">
                 Desarrollado por
                 <a href="https://www.linkedin.com/in/alan-neculp%C3%A1n/">Alan Neculpán</a>

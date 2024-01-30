@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(253, 204, 139);
+    background-color: #ff9868;
 }
 
 .container {
-    margin: 5% auto 0 auto;
-    padding: 2.5%;
-    background-color: rgb(255, 225, 185);
+    margin: 2% auto 2% auto;
+    padding: 3%;
+    background-color: #f8cab5e4;
 }
 
 .titulo-principal {
@@ -16,3 +16,31 @@ body {
     text-align: right;
 }
 
+.btn-primary {
+    background-color: #0A356C;
+    border-radius: 2cm;
+}
+
+.btn-warning {
+    background-color: #F3F5FC;
+    border-color: #5A79A1;
+    border-radius: 2cm;
+}
+
+.btn-danger {
+    background-color: #F3F5FC;
+    color: #000000;
+    border-color: #5A79A1;
+    border-radius: 2cm;
+}
+
+.btn-primary:hover {
+    background-color: #071a34;
+    border-color: #5A79A1;
+}
+
+.btn-warning:hover, .btn-danger:hover {
+    background-color: #4f637c;
+    color: #000000;
+    border-color: #5A79A1;
+}
