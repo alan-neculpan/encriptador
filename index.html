@@ -27,17 +27,17 @@
 
                     <div class="mb-4">
                         <label for="text_area" class="h4 mb-4">Texto Encriptado/Desencriptado:</label>
-                        <textarea class="form-control" id="text_area" rows="6" disabled></textarea>
+                        <textarea class="form-control" id="text_area" rows="4"></textarea>
                     </div>
                 </div>
             </div>
 
             <div class="d-grid gap-3 col-4 mx-auto">
-                <button class="btn btn-primary" type="button" onclick="encriptarMensaje()">Encriptar</button>
-                <button class="btn btn-warning" type="button">Desencriptar</button>
-                <button class="btn btn-danger" type="button">Copiar</button>
+                <button class="btn btn-primary" type="button" id="btn_encriptar" onclick="encriptarMensaje()">Encriptar</button>
+                <button class="btn btn-warning" type="button" onclick="desEncriptarMensaje()">Desencriptar</button>
+                <button class="btn btn-danger" type="button" id="btn_copiar" onclick="copiarMensaje()" style="display: none;">Copiar</button>
             </div>
-            
+
             <br>
             <p class="h6 titulo-secundario">
                 Desarrollado por
